@@ -8,9 +8,12 @@ function App() {
   return (
     <>
       <div className='message'>
-        <h1>NO</h1>
+        <h1>YES!!</h1>
         <div className="card">
           <ProgressiveTimer />
+          <video controls style={{ width: '644px', height: '574px' }}>
+            <source src="./public/Medal_M4iqylRF3D.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </>
